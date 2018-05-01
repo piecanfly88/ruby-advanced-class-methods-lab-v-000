@@ -27,4 +27,13 @@ class Song
     song.name = song_title
     song
   end
+
+  def self.find_by_name(song_title)
+    song = nil
+    @@all.select do |i|
+      if i == song_title
+        song = i
+      end
+    song
+  end
 end
