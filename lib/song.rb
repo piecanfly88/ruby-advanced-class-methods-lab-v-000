@@ -34,7 +34,6 @@ class Song
       if i == song_title
         song = i
       end
-      song
     end
   end
 end
