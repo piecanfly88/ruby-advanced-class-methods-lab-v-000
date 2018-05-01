@@ -42,7 +42,7 @@ class Song
   end
 
   def self.alphabetical
-    self.all.map{|i| i.name.sort}
+    self.all.map{|i| i.sort}
   end
 
 end
