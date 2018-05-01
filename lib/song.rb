@@ -35,5 +35,6 @@ class Song
         song = i.name
       end
     end
+    song
   end
 end
