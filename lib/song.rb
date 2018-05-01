@@ -29,10 +29,11 @@ class Song
   end
 
   def self.find_by_name(song_title)
+
     song = nil
-    @@all.detect do |i|
-      if i == song_title
-        song = i
+    self.all.detect do |i|
+      if i.name == song_title
+        song = i.name
       end
     end
   end
